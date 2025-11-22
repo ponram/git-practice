@@ -2,7 +2,7 @@
 Simple calculator program
 Version 1.0 - Basic operations
 """
-
+ # Updated on GitHub directly
 def add(a, b):
     """Add two numbers"""
     return a + b
