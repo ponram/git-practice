@@ -3,6 +3,7 @@ Simple calculator program
 Version 1.0 - Basic operations
 """
  # Updated on GitHub directly
+# Latest version with all features combined
 def add(a, b):
     """Add two numbers with validation"""
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
