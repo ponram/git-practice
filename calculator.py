@@ -11,6 +11,10 @@ def subtract(a, b):
     """Subtract two numbers"""
     return a - b
 
+def multiply(a, b):
+    """Multiply two numbers"""
+    return a * b
+
 def main():
     print("Welcome to the Calculator")
     print(f"5 + 3 = {add(5, 3)}")
