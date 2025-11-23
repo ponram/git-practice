@@ -7,6 +7,8 @@ def add(a, b):
     """Add two numbers with validation"""
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise ValueError("Both arguments must be numbers")
+    """Add two numbers with logging"""
+    print(f"Adding {a} and {b}")
     return a + b
 
 def subtract(a, b):
