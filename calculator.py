@@ -4,7 +4,9 @@ Version 1.0 - Basic operations
 """
  # Updated on GitHub directly
 def add(a, b):
-    """Add two numbers"""
+    """Add two numbers with validation"""
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise ValueError("Both arguments must be numbers")
     return a + b
 
 def subtract(a, b):
