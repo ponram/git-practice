@@ -4,7 +4,8 @@ Version 1.0 - Basic operations
 """
  # Updated on GitHub directly
 def add(a, b):
-    """Add two numbers"""
+    """Add two numbers with logging"""
+    print(f"Adding {a} and {b}")
     return a + b
 
 def subtract(a, b):
